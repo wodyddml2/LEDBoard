@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  LEDBoard
+//  horizontal
 //
-//  Created by J on 2022/07/08.
+//  Created by J on 2022/07/06.
 //
 
 import UIKit
@@ -35,18 +35,19 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Called when the scene will move from an active state to an inactive state.
         // This may occur due to temporary interruptions (ex. an incoming phone call).
     }
-
+    
+    // 유튜브 - 결제를 유도하기 위해 화면을 띄어 팝업창을 띄운다.
     func sceneWillEnterForeground(_ scene: UIScene) {
         // Called as the scene transitions from the background to the foreground.
         // Use this method to undo the changes made on entering the background.
     }
-
+    
+    // 유튜브 - 사용자 프리미엄 결제 했으면 play, 아니라면 일시 정지
     func sceneDidEnterBackground(_ scene: UIScene) {
         // Called as the scene transitions from the foreground to the background.
         // Use this method to save data, release shared resources, and store enough scene-specific state information
         // to restore the scene back to its current state.
     }
-
 
 }
 
